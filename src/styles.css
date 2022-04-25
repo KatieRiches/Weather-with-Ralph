@@ -1,0 +1,87 @@
+.main {
+  margin: 100px auto;
+  max-width: 800px;
+  padding: 80px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+  background-color: #e4f1fe;
+  position: relative;
+}
+
+.container {
+  margin: 100px auto;
+  padding: 80px;
+  border-radius: 10px;
+  background-color: #e4f1fe;
+  position: relative;
+}
+
+.weatherapp {
+  text-align: center;
+  position: relative;
+  margin: 0%;
+  text-align: center;
+  top: 13%;
+  left: 15%;
+  display: flex;
+}
+
+.search {
+  text-align: center;
+  position: relative;
+  margin: 0%;
+  text-align: center;
+  top: 13%;
+  left: 5%;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #00b4cc;
+  border-right: none;
+  padding: 5px;
+  height: 45px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9dbfaf;
+}
+
+.searchTerm:focus {
+  color: #00b4cc;
+}
+
+.searchButton {
+  width: 40px;
+  height: 45px;
+  border: 1px solid #00b4cc;
+  background: #00b4cc;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.col {
+  position: relative;
+}
+.wrap {
+  position: relative;
+  text-align: center;
+}
+.cloud {
+  color: grey;
+  font-size: 80px;
+  text-align: center;
+}
+
+.sun {
+  text-align: center;
+  color: yellow;
+  font-size: 80px;
+}
+.card-title {
+  text-align: center;
+  font-size: 50px;
+}
